@@ -1,0 +1,11 @@
+Extension : OW Mobile
+Requires  : eZ Publish 4.x.x (not tested on 3.X)
+Author    : Open Wide <http://www.openwide.fr>
+
+Installation:
+------------
+- Copy owmobile in extension directory
+- set vars site's urls into settings/mobileredirection.ini
+- Enable the extension in site.ini
+- Clear the cache
+- Regenerate autoloads : php bin/php/ezpgenerateautoloads.php -e
