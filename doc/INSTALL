@@ -5,7 +5,7 @@ Author    : Open Wide <http://www.openwide.fr>
 Installation:
 ------------
 - Copy owmobile in extension directory
-- set vars site's urls into settings/mobileredirection.ini
+- set vars site's urls into settings/owmobile.ini
 - Enable the extension in site.ini
 - Clear the cache
 - Regenerate autoloads : php bin/php/ezpgenerateautoloads.php -e
