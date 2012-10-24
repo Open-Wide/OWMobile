@@ -5,7 +5,7 @@ if(!$sitetype){
     $sitetype = 'normal';
 }
 
-$settings = eZINI::instance( 'mobileredirection.ini' );
+$settings = eZINI::instance( 'owmobile.ini' );
 $destination = $settings->variable( 'RedirectUrl', $sitetype );
 
 $http = eZHTTPTool::instance();

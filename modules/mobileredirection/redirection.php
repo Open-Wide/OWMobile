@@ -1,8 +1,8 @@
 <?php
 
-$ini = eZINI::instance( 'mobileredirection.ini' );
+$ini = eZINI::instance( 'owmobile.ini' );
 $useragent = $_SERVER['HTTP_USER_AGENT'];
-$functions = new MobileUtils();
+$functions = new OWMobileUtils();
 $iPadUrl = $ini->variable( 'RedirectUrl', 'ipad' );
 $iPhoneUrl = $ini->variable( 'RedirectUrl', 'iphone' );
 $mobileUrl = $ini->variable( 'RedirectUrl', 'mobile' );

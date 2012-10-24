@@ -5,8 +5,8 @@
 $eZTemplateOperatorArray = array();
 
 $eZTemplateOperatorArray[] =
-  array( 'script' => 'extension/owmobile/autoloads/mobiledetection.php',
-         'class' => 'MobileDetection',
-         'operator_names' => array( 'mobiledetection','mobileredirectionstarter'));
+  array( 'script' => 'extension/owmobile/autoloads/owmobiledetection.php',
+         'class' => 'OWMobileDetection',
+         'operator_names' => array( 'owmobiledetection','owmobileredirectionstarter'));
 
 ?>
