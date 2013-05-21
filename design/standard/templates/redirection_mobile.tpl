@@ -1,5 +1,6 @@
 {*?template charset=UTF-8*}
 {* Have a look at https://github.com/sebarmeli/JS-Redirection-Mobile-Site for redirection configuration *}
+{ezscript_require(array( 'redirection_mobile.js' ) )}
 {def $mobile_url            = ezini( 'RedirectUrl', 'mobile', 'owmobile.ini' )|ezurl('no')
      $ready_mobile_url      = cond($mobile_url|contains('http://')  , $mobile_url|extract(7) ,
                                    $mobile_url|contains('https://') , $mobile_url|extract(8) ,
